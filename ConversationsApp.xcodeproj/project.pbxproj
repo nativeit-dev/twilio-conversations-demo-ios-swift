@@ -761,7 +761,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1250;
-				ORGANIZATIONNAME = "Twilio, Inc";
+				ORGANIZATIONNAME = "Stephen Davis";
 				TargetAttributes = {
 					04CD54F82746779D001D1EFC = {
 						CreatedOnToolsVersion = 13.1;
@@ -987,7 +987,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = 4SGGX3RKA4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PushNotificationServiceExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PushNotificationServiceExtension;
@@ -999,7 +999,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.rtd.conversations-demo-app.PushNotificationServiceExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silverXnoise.conversations-demo-app.PushNotificationServiceExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1013,10 +1013,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = 4SGGX3RKA4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PushNotificationServiceExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PushNotificationServiceExtension;
@@ -1028,9 +1028,9 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.rtd.conversations-demo-app.PushNotificationServiceExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silverXnoise.conversations-demo-app.PushNotificationServiceExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Conversations Demo App Notifi Ext Dev";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1166,7 +1166,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "ConversationsApp/Preview\\ Content";
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = 4SGGX3RKA4;
 				ENABLE_TESTABILITY = YES;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = ConversationsApp/Info.plist;
@@ -1174,7 +1174,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.rtd.conversations-demo-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silverXnoise.conversations-demo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = NO;
@@ -1188,10 +1188,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ConversationsApp/ConversationsApp.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "ConversationsApp/Preview\\ Content";
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = 4SGGX3RKA4;
 				ENABLE_TESTABILITY = YES;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = ConversationsApp/Info.plist;
@@ -1200,9 +1200,9 @@
 					"@executable_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.rtd.conversations-demo-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silverXnoise.conversations-demo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Conversations Demo App Dev";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1219,7 +1219,7 @@
 				04CD55032746779D001D1EFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D473F30A229D715A008709FB /* Build configuration list for PBXProject "ConversationsApp" */ = {
 			isa = XCConfigurationList;
@@ -1228,7 +1228,7 @@
 				D473F336229D715E008709FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D473F337229D715E008709FB /* Build configuration list for PBXNativeTarget "ConversationsApp" */ = {
 			isa = XCConfigurationList;
@@ -1237,7 +1237,7 @@
 				D473F339229D715E008709FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 

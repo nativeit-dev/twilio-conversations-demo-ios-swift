@@ -78,7 +78,7 @@
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "ACCESS_TOKEN_SERVICE_URL"
-            value = "${ACCESS_TOKEN_SERVICE_URL}"
+            value = "https://bittersweet-guanaco-4148.twil.io/token-service"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>

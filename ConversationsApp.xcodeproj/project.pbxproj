@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04CD54FC2746779D001D1EFC /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD54FB2746779D001D1EFC /* NotificationService.swift */; };
-		04CD55002746779D001D1EFC /* PushNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 04CD54F92746779D001D1EFC /* PushNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04CD55002746779D001D1EFC /* PushNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 04CD54F92746779D001D1EFC /* PushNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		04CD550927467FAE001D1EFC /* audio.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CD550527467FAE001D1EFC /* audio.png */; };
 		04CD550A27467FAE001D1EFC /* document.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CD550627467FAE001D1EFC /* document.png */; };
 		04CD550B27467FAE001D1EFC /* video.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CD550727467FAE001D1EFC /* video.png */; };
@@ -133,15 +133,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		04CD55012746779D001D1EFC /* Embed App Extensions */ = {
+		04CD55012746779D001D1EFC /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				04CD55002746779D001D1EFC /* PushNotificationServiceExtension.appex in Embed App Extensions */,
+				04CD55002746779D001D1EFC /* PushNotificationServiceExtension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -734,7 +734,7 @@
 				D473F30C229D715A008709FB /* Frameworks */,
 				D473F30D229D715A008709FB /* Resources */,
 				861FDFA427298AD100798E47 /* Set Bundle Version */,
-				04CD55012746779D001D1EFC /* Embed App Extensions */,
+				04CD55012746779D001D1EFC /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -760,7 +760,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = "Stephen Davis";
 				TargetAttributes = {
 					04CD54F82746779D001D1EFC = {
@@ -1170,10 +1170,14 @@
 				ENABLE_TESTABILITY = YES;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = ConversationsApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Twilio Conversations Demo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = "";
+				"MARKETING_VERSION[sdk=iphoneos*]" = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverXnoise.conversations-demo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1195,10 +1199,14 @@
 				ENABLE_TESTABILITY = YES;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = ConversationsApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Twilio Conversations Demo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = "";
+				"MARKETING_VERSION[sdk=iphoneos*]" = 1.0.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverXnoise.conversations-demo-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
